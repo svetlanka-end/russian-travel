@@ -1,5 +1,18 @@
 .page__container {
-    min-width: 320px;
+    min-width: 250px;
+    max-width: 1184px;
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .page__container {
+        width: calc(100% - 2 * 48px);
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .page__container {
+        width: 100%;
+    }
 }

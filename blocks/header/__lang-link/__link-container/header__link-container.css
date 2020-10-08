@@ -1,0 +1,12 @@
+.header__link-container {
+    padding-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .header__link-container {
+        padding-bottom: 8px;
+    }
+}

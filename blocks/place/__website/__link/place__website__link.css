@@ -1,4 +1,4 @@
-.places__place__website__link {
+.place__website__link {
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -7,6 +7,6 @@
     color: #fff;
 }
 
-.places__place__website__link:hover {
+.place__website__link:hover {
     cursor: url("../../../../../images/Path.png"), pointer;
 }
